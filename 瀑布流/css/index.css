@@ -1,0 +1,31 @@
+/**********初使化*************/
+*{
+	margin: 0;
+	padding:0;
+}
+
+/******************定义container的样式*************/
+
+.container{
+	position: relative;
+}
+
+/*******定义box样式盒子与盒子之间的距离***********/
+.box{
+	float: left;
+	padding: 10px 0 0 10px;
+}
+
+/************定义图片盒子content的样式**********/
+.content{
+	padding: 10px;
+	border:1px solid #ccc;
+	box-shadow: 0 0 5px #ccc;
+	border-radius: 5px;
+}
+
+/****************定义图片的宽度************/
+.content img{
+	width: 170px;
+	height: auto;
+}

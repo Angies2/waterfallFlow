@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        body
+        {
+            text-align:center;
+        }
+        .shadow1:before
+        {
+            display:block;
+            color:gray;
+            margin:0 0 -1.3em 1.1em;
+            content:attr(title);
+        }
+        h1.shadow2
+        {
+            color:gray;
+        }
+        .shadow2:after
+        {
+            display:block;
+            color:black;
+            margin:-1.3em 1.1em 0 0;
+            content:attr(title);
+        }
+    </style>
+</head>
+<body>
+<h1 class="shadow1" title="KEEN">KEEN</h1>
+<h1 class="shadow2" title="KEEN">KEEN</h1>
+</body>
+</html>
